@@ -1,0 +1,45 @@
+
+
+<script>
+web3 = parent.web3;
+var SimpleStorage = [{
+  "constant": false,
+  "inputs": [{
+    "name": "x",
+    "type": "uint256"
+  }],
+  "name": "set",
+  "outputs": [],
+  "type": "function"
+}, {
+  "constant": true,
+  "inputs": [],
+  "name": "get",
+  "outputs": [{
+    "name": "retVal",
+    "type": "uint256"
+  }],
+  "type": "function"
+}];
+
+var storageContract = web3.eth.contract('0x08194b89a656ac0adcf5bfb1b579a031798f5844',SimpleStorage);
+
+</script>
+
+<button onclick="set()">set</button>
+<input type="text" id="setF"><br>
+
+<button onclick="get()">get</button>
+<input type="text" id="getF">
+
+<script>
+function set(){
+  var v = document.getElementById('setF').value;
+  v = parseInt(v,10);
+  storageContract.set(v);
+}
+function get(){
+  var v = storageContract.get().toString(10);
+  document.getElementById('getF').value = v;
+}
+</script>
