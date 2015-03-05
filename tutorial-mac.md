@@ -4,7 +4,11 @@ Mavericks is required for compiling the app.
 
 ## Build with HomeBrew
 
-Ethereum
+Make sure your home brew is up-to-date by running:
+
+```
+$ brew update
+```
 
 ### Stable branch
 
