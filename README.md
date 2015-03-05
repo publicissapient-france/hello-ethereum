@@ -15,8 +15,9 @@ Then we will proceed with the example of blockchain-based decentralized applicat
 # Examples
 
 - [Your first Solidity contract](https://github.com/ethereum/wiki/wiki/Solidity-Tutorial)
-- [Contracts that send transactions](https://dappsforbeginners.wordpress.com/tutorials/contracts-that-send-transactions/)
-- [Tic Tac Toe Game](https://github.com/dennismckinnon/Ethereum-TicTacToe)
+- [Tic Tac Toe: Game](https://github.com/dennismckinnon/Ethereum-TicTacToe)
+- [Kickstarter: Contracts that send transactions](https://dappsforbeginners.wordpress.com/tutorials/contracts-that-send-transactions/)
+- [eBay: Two party contracts](https://dappsforbeginners.wordpress.com/tutorials/two-party-contracts/)
 - [I want half](https://github.com/jorisbontje/cll-sim/blob/master/examples/i_want_half.cll)
 
 # Resource
