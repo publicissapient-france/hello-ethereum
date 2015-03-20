@@ -14,8 +14,8 @@ $ brew update
 
 ```
 $ brew tap ethereum/ethereum
-$ brew install ethereum --build-from-source
-$ brew linkapps ethereum
+$ brew install cpp-ethereum
+$ brew linkapps cpp-ethereum
 ```
 
 Once the installation finished, you should be able to open the application AlethZero from your application directory.
@@ -23,8 +23,8 @@ Once the installation finished, you should be able to open the application Aleth
 ### Development branch
 
 ```
-$ brew reinstall ethereum --devel --build-from-source
-$ brew linkapps ethereum
+$ brew reinstall cpp-ethereum --devel
+$ brew linkapps cpp-ethereum
 ```
 
 The development branch includes a beta IDE for developping DApps - Mix.
