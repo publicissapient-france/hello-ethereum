@@ -18,6 +18,12 @@ $ brew install cpp-ethereum
 $ brew linkapps cpp-ethereum
 ```
 
+Note regarding Frontier release: Since Frontier will be CLI only, the default installs do not include GUI binaries in the brew bottles. Add --with-gui to brew Mist and AlethZero / Mix IDE.
+
+```
+$ brew install cpp-ethereum --with-gui
+```
+
 Once the installation finished, you should be able to open the application AlethZero from your application directory.
 
 ### Development branch
